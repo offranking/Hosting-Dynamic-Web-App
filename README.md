@@ -45,6 +45,9 @@ npm -v
 
 <img width="893" height="466" alt="Screenshot 2025-09-19 at 5 29 58 pm" src="https://github.com/user-attachments/assets/d242f0ca-6371-4af6-9884-6fb82089ff79" />
 
+Now node -v
+
+<img width="871" height="97" alt="Screenshot 2025-09-19 at 4 53 34 pm" src="https://github.com/user-attachments/assets/0b8b44ae-715c-4111-acaf-bbc47b75af0c" />
 
 
 
