@@ -45,7 +45,58 @@ npm -v
 
 <img width="893" height="466" alt="Screenshot 2025-09-19 at 5 29 58 pm" src="https://github.com/user-attachments/assets/d242f0ca-6371-4af6-9884-6fb82089ff79" />
 
-Now node -v
- 
+###Now node -v
+
+### We have our NPM running 
+
+<img width="910" height="566" alt="Screenshot 2025-09-20 at 10 16 03 pm" src="https://github.com/user-attachments/assets/34cbf242-e540-475f-97d4-90797b342450" />
+
+### Sudo systemctl start docker systemctl is the command used to manage system services on Linux systems that use systemd (like Ubuntu, Debian, CentOS, Fedora).
+It allows you to start, stop, restart, enable, disable, and check the status of services.
+
+<img width="1002" height="242" alt="Screenshot 2025-09-20 at 9 47 58 pm" src="https://github.com/user-attachments/assets/0136be82-1bf5-42ab-9edb-1bddcd4c6238" />
+
+### Process of Running docker ps -a
+
+<img width="1354" height="178" alt="Screenshot 2025-09-20 at 9 48 45 pm" src="https://github.com/user-attachments/assets/32c5f4b3-a2d3-4ac5-867e-7e9aa1c7400e" />
+
+
+### Once you make sure your docker is running then you can run this http://34.228.62.57:3000
+
+<img width="1416" height="569" alt="Screenshot 2025-09-20 at 10 14 07 pm" src="https://github.com/user-attachments/assets/5a462d86-33f6-4563-ad4d-cbdbb89a9c50" />
+
+### Now we need to cd in to the module/ecr/main.tf
+
+
+<img width="1128" height="85" alt="Screenshot 2025-09-20 at 10 06 04 pm" src="https://github.com/user-attachments/assets/48968ce6-6402-441f-b0ab-fd79e8a1fb82" />
+
+### open the file in there which is main.tf
+
+<img width="1262" height="787" alt="Screenshot 2025-09-20 at 10 10 29 pm" src="https://github.com/user-attachments/assets/6bdced2f-e0b6-4c4c-85d8-f3c2bf08d69a" />
+
+### do the same module/ecs/main.tf
+
+<img width="1128" height="85" alt="Screenshot 2025-09-20 at 10 06 04 pm" src="https://github.com/user-attachments/assets/41807f21-fec2-424b-ace3-f4ea877701a5" />
+
+### Open the main.tf
+
+<img width="1262" height="900" alt="Screenshot 2025-09-20 at 10 12 26 pm" src="https://github.com/user-attachments/assets/7a1946d2-0cb5-4dfc-8605-466afdae4bb2" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
