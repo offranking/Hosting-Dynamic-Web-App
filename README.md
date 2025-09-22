@@ -78,7 +78,7 @@ It allows you to start, stop, restart, enable, disable, and check the status of 
 
 <img width="1128" height="85" alt="Screenshot 2025-09-20 at 10 06 04 pm" src="https://github.com/user-attachments/assets/41807f21-fec2-424b-ace3-f4ea877701a5" />
 
-### Open the main.tf
+## Open the main.tf
 
 <img width="1262" height="900" alt="Screenshot 2025-09-20 at 10 12 26 pm" src="https://github.com/user-attachments/assets/7a1946d2-0cb5-4dfc-8605-466afdae4bb2" />
 
