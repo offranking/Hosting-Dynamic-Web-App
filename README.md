@@ -83,18 +83,75 @@ It allows you to start, stop, restart, enable, disable, and check the status of 
 <img width="1262" height="900" alt="Screenshot 2025-09-20 at 10 12 26 pm" src="https://github.com/user-attachments/assets/7a1946d2-0cb5-4dfc-8605-466afdae4bb2" />
 
 
+### Terraform is an Infrastructure as Code (IaC) tool that allows you to:
+Automate the creation and management of cloud infrastructure (AWS, Azure, GCP, etc.).
+Keep infrastructure consistent and repeatable using configuration files (like main.tf).
+Manage infrastructure lifecycle — create, update, and destroy resources safely.
+Share infrastructure setups with your team by simply sharing .tf files.
+Now we have to install terraform. to do this we need to update 
+### sudo apt update 
+
+<img width="1153" height="497" alt="Screenshot 2025-09-22 at 5 48 08 pm" src="https://github.com/user-attachments/assets/fd743b86-92fc-4e8a-90ef-642c4321149a" />
 
 
+<img width="1008" height="344" alt="Screenshot 2025-09-22 at 5 48 40 pm" src="https://github.com/user-attachments/assets/ac4c5101-f72a-4072-a6d6-39cbf039a5d6" />
+
+### we need to run the command sudo apt install -y gnupg software-properties-common curl
+<img width="1255" height="157" alt="Screenshot 2025-09-22 at 5 49 12 pm" src="https://github.com/user-attachments/assets/eb5d2937-147a-4ea7-9598-707235b01ff7" />
+
+we need to add the repository name sudo apt-add-repository "deb [arch=amd64] https://apt.releases.hashicorp.com $(lsb_release -cs) main"
+
+<img width="1392" height="383" alt="Screenshot 2025-09-22 at 5 52 46 pm" src="https://github.com/user-attachments/assets/3e9f701f-920b-4fa8-bf2d-6ac1b26afe08" />
+
+### Sudo apt update
+<img width="1439" height="248" alt="Screenshot 2025-09-22 at 5 53 29 pm" src="https://github.com/user-attachments/assets/a56b665c-83ca-4816-a10b-b76a2f29bd36" />
+
+### the last command will install the terraform
+"sudo apt install terraform -y"
 
 
+<img width="905" height="120" alt="Screenshot 2025-09-22 at 5 54 03 pm" src="https://github.com/user-attachments/assets/583e5b8a-a6c7-4664-976d-06f76be309af" />
 
 
+### terraform -version to get check 
+
+<img width="686" height="61" alt="Screenshot 2025-09-22 at 5 54 38 pm" src="https://github.com/user-attachments/assets/3a47084d-f2a0-4ea0-b08e-4e1578b8cccf" />
+
+### now we need to install the "AWS CLI"
 
 
+### run this comman curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+
+<img width="1353" height="74" alt="Screenshot 2025-09-22 at 6 00 27 pm" src="https://github.com/user-attachments/assets/1f8bbc81-fd18-406b-9dc6-d022c9aec99c" />
+
+### after installing the "AWS CLI" we need to run "terraform init"
+
+<img width="927" height="426" alt="Screenshot 2025-09-22 at 5 55 45 pm" src="https://github.com/user-attachments/assets/0c4ac2f6-17c8-4188-9f41-14723d34fe2f" />
+
+### The next step is to run Terraform’s validation command to make sure your configuration files are written correctly
+
+<img width="1280" height="67" alt="Screenshot 2025-09-22 at 8 50 14 pm" src="https://github.com/user-attachments/assets/e85a6a84-fd38-411d-b47f-dc3be925a3ba" />
 
 
+### After validating the configuration, the next step is to generate an execution plan with Terraform. This allows you to preview the infrastructure changes before applying them.
+"terraform plan"
 
+<img width="1262" height="900" alt="Screenshot 2025-09-22 at 6 02 00 pm" src="https://github.com/user-attachments/assets/44a3c5f6-6c65-4c8c-bd6b-2675521c9a53" />
 
+run terraform apply and type "yes"
+<img width="1262" height="861" alt="Screenshot 2025-09-22 at 6 02 40 pm" src="https://github.com/user-attachments/assets/3a9f5383-ec9d-4c4c-a42d-5bf69a3cb9cf" />
+
+### Wait for provisioning:
+
+Terraform will provision the resources in your cloud provider (e.g., AWS).
+
+When complete, it will display important outputs, such as the public IP address of your EC2 instance or other resource details.
+
+<img width="1381" height="757" alt="Screenshot 2025-09-22 at 6 07 37 pm" src="https://github.com/user-attachments/assets/eb2c731a-6de4-4c92-aa30-bbca7a148c12" />
+
+### Now we have to check the public ip on the broser IP: http://107.23.163.173/
+
+<img width="1262" height="812" alt="Screenshot 2025-09-22 at 4 41 05 pm" src="https://github.com/user-attachments/assets/6911dd62-88af-4f5f-90a4-53c2d165dbf9" />
 
 
 
